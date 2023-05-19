@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2488602-3C52-FF6B-74B7-A23E627EB70A" name="Tipo_envio">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>9B08E67A-D476-1763-5882-200890731A80</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Venta_Id_Venta" id="0F2C33D0-1CE9-7DE3-6624-58E56A517EEC">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>EA1A935C-81B4-BB28-A883-E49129A7FC81</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA6813CA-DE0A-AB9E-9454-8FEFD01E01EE" referredColumn="1BE2E96A-6AC1-5FD1-1C56-149D3B05DA3C"/>
+</associations>
+</Column>
+<Column name="Num_Seguimiento" id="67223E30-53EA-EB3C-B4D2-AE631915DF87">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>865EBCB0-CDA2-BD4A-7453-880BEDACFFFF</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_envio" id="FBD9341B-021D-7FBC-A199-F32BD7378DAE">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Domicilio/Retiro en tienda]]></commentInRDBMS>
+<generatorID>8359B97B-D269-D4F8-BAD7-B65C3F93B96F</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="822E8FCC-AE33-0EEF-6FDD-82FE32A023A7" name="Tipo_envio_PK">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>98EC359D-1B42-FABD-C147-F668A14432AE</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67223E30-53EA-EB3C-B4D2-AE631915DF87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="073AC8FC-ACDA-4352-C919-6F9405ECDEA9" name="Tipo_envio__IDX">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B2127538-D22A-9D1D-EF62-CB9173EB2DF4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0F2C33D0-1CE9-7DE3-6624-58E56A517EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="816449C4-B4EA-D10C-EB62-96FA0D17DFB4" name="Tipo_envio_Venta_FK">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>B2127538-D22A-9D1D-EF62-CB9173EB2DF4</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F2C33D0-1CE9-7DE3-6624-58E56A517EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

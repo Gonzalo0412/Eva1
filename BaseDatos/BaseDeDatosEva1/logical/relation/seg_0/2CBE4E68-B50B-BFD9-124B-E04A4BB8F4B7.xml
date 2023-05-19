@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="2CBE4E68-B50B-BFD9-124B-E04A4BB8F4B7">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:22:35 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<sourcePk>1EE84369-BD7C-ACA7-2A51-BF8594C9CB73</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>074441C7-B045-05FE-F6F6-9C6799932777</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7E989624-AF1C-51FE-26EE-594298825B71</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

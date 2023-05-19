@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="42C23110-97B3-E9E1-B08E-4D26B40E62A0" containerWithKeyObject="6AFE94C8-6568-71A0-681B-23BC0A67EE7F" localFKIndex="4BDEFE9C-4E66-1710-A7BD-5C6EA8A6586C" name="Producto_Administrador_FK">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>2CBE4E68-B50B-BFD9-124B-E04A4BB8F4B7</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<referredTableLongName>Administrador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5C997316-F2A2-F99A-31D8-73B50EB18202</referredTableID>
+<keyObject>5D443609-E8E6-CD7F-AFA4-619D8B1BB7C7</keyObject>
+<referredKeyID>5D443609-E8E6-CD7F-AFA4-619D8B1BB7C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Administrador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

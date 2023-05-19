@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="733AD69C-541C-551C-D7F4-8B8A0BEAEA2B" name="Usuario">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>0481F485-8131-6127-97CE-C0B167C1A000</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rut" id="F5243A2E-3E81-E1A3-BFDD-343A3CFDE229">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>6FD686DB-C369-CC6C-7A0D-8859A11C672C</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DG" id="E1BDDD87-E425-32A8-C861-A6FE0E89CE57">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>5284B09D-A028-0B3C-7441-513D178C4871</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="614D38C1-405B-B6FB-AB3C-134F61BF3D83">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>9E0C6C54-4010-10A2-A2CE-CDD4415F1811</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="45315D32-E0B8-24D4-EB95-54F48EA06B8C">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>00304535-6293-F22F-D645-B3F24ABEC198</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="CE2DD127-2B30-940F-9EF5-043BAA969CD0">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>74AC0D8D-2E8D-A7AF-5FB1-73ECB08D1EE8</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo" id="72CDCF64-7B8A-BD44-62F9-EF9C70A17F8E">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>28DBDEB1-E368-5A97-2828-18C3B6706EF0</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_nac" id="FE457402-679B-6003-67FE-95D95E73547E">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>F5177E43-282E-8864-2BF8-47FD363F04B9</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region" id="07AA131E-166B-19CF-D324-AD2A80DC52B9">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>B94036B2-A035-3D1C-5AB6-FFB2C433366E</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Niv_Educ" id="2A6A2596-2AB1-43BA-CEF2-274D63C0A1BD">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>050D8C78-B372-D7DF-7EC1-D13C1CFA9EC2</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB3BB030-D262-5FDA-4773-FC35ACCE3BDB" name="Usuario_PK">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>18FB977F-520F-E92B-F0DC-E870D298D97A</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5243A2E-3E81-E1A3-BFDD-343A3CFDE229"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

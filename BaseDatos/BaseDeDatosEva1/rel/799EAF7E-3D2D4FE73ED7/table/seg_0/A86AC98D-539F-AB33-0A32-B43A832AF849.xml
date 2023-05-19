@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A86AC98D-539F-AB33-0A32-B43A832AF849" name="Venta">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>786C207A-275A-C806-E4CC-B2D522351614</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Venta" id="1BE2E96A-6AC1-5FD1-1C56-149D3B05DA3C">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>209F5FE2-D38A-73D1-F565-18A7365F9363</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio_Venta" id="9E7CE464-1B7F-9D70-94BF-FA3E00CA9282">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>70119901-3A1B-E861-42CE-9A4E9B2AC85A</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Iva" id="2B7D21B0-5790-D147-D7FD-EEAE51F39879">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>33FC9BD6-8FAB-B133-0C89-6510FB28534E</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,10,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descrip_venta" id="7AA4E814-0F53-5A30-7CE0-4EB209BFB359">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>9F2BC072-8260-0A44-A7CF-8F7490023BF9</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABA578C2-415D-6491-5673-001F22D5EC43" name="Venta_PK">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>6BAF3420-E6D6-F740-3B86-32198FFAC8D1</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BE2E96A-6AC1-5FD1-1C56-149D3B05DA3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

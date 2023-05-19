@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="074441C7-B045-05FE-F6F6-9C6799932777" name="Administrador">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:18:37 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Administrador" id="E1FE0FDC-69AE-6F48-62D7-0CD4474AB387">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:20:51 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut" id="3075789F-A3F5-CB33-6E06-84DD7661CB5B">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:19:15 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DG" id="294F5440-96DD-E533-BDA2-8EF7F27AB0B5">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:19:15 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="13CF45F1-5D74-EFF3-5B2C-8F89C9BE22F1">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:19:15 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero" id="485A0A06-CA76-388A-C1F1-F3DC917302C1">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:19:15 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido_ap" id="D686D53D-B048-4E4E-6780-C1AEEDE4FBAB">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:19:15 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido_am" id="A4E7F124-554F-31D0-9AE2-F6AC32BD44ED">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:19:54 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo" id="CA5B0013-B664-5F09-7222-93DBBB1E502B">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:19:15 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_nac" id="7054A771-4668-79BA-C79F-98697918012B">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:19:15 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Region" id="3968B56F-5182-F67C-AE8A-08400FD516AB">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:19:15 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EE84369-BD7C-ACA7-2A51-BF8594C9CB73" name="Administrador PK">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 14:19:31 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<engineerTo>
+<item key="799EAF7E-93CF-3380-E526-3D2D4FE73ED7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1FE0FDC-69AE-6F48-62D7-0CD4474AB387</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C72909F-C68F-D69D-0AB8-80215655B302" name="Relation_3">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Producto_Id_Producto" id="62ADAE14-650D-2D0B-EBD7-C44D95429575">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD3D8955-519D-C707-738B-81AD781C4C28" referredColumn="B5A0C297-4AFC-6C49-4AE1-D7AC269DEA80"/>
+</associations>
+</Column>
+<Column name="Venta_Id_Venta" id="8961BBD0-8045-52BC-4016-8ED74081B21C">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61B99205-57A9-F009-4723-DDB422961DF1" referredColumn="1BE2E96A-6AC1-5FD1-1C56-149D3B05DA3C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C384F565-FACD-81D7-5FF8-D2A721773E8A" name="Relation_3_PK">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62ADAE14-650D-2D0B-EBD7-C44D95429575"/>
+<colUsage columnID="8961BBD0-8045-52BC-4016-8ED74081B21C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="122142AD-9A64-B811-AF63-67257B270C87" name="Relation_3_Producto_FK">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>47D2C6C6-A941-B251-BD68-5D4AB6AA94B7</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62ADAE14-650D-2D0B-EBD7-C44D95429575"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FA29255-1AF1-3C1D-626E-8E3DA541D0D2" name="Relation_3_Venta_FK">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>47D2C6C6-A941-B251-BD68-5D4AB6AA94B7</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8961BBD0-8045-52BC-4016-8ED74081B21C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

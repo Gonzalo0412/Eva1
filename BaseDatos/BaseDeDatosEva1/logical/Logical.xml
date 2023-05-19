@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="24E65AEC-F281-B74C-ED4E-304DC9147EF6" mainViewID="ADDA1F24-2F56-215A-48ED-0E0DB59556FD">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 13:58:06 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

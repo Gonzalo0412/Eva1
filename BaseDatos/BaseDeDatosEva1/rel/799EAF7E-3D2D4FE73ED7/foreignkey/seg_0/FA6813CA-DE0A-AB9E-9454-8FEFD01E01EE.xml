@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FA6813CA-DE0A-AB9E-9454-8FEFD01E01EE" containerWithKeyObject="A2488602-3C52-FF6B-74B7-A23E627EB70A" localFKIndex="816449C4-B4EA-D10C-EB62-96FA0D17DFB4" name="Tipo_envio_Venta_FK">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 15:42:46 UTC</createdTime>
+<generatorID>B2127538-D22A-9D1D-EF62-CB9173EB2DF4</generatorID>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<referredTableLongName>Venta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A86AC98D-539F-AB33-0A32-B43A832AF849</referredTableID>
+<keyObject>ABA578C2-415D-6491-5673-001F22D5EC43</keyObject>
+<referredKeyID>ABA578C2-415D-6491-5673-001F22D5EC43</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Venta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

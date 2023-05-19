@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D974B739-998D-4B53-6DB6-AE73B6C855B3">
+<createdBy>galaz</createdBy>
+<createdTime>2023-04-11 13:58:06 UTC</createdTime>
+<ownerDesignName>BaseDeDatosEva1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
